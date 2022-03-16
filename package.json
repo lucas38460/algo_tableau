@@ -1,0 +1,22 @@
+{
+  "name": "algo_tableau",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas38460/algo_tableau.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucas38460/algo_tableau/issues"
+  },
+  "homepage": "https://github.com/lucas38460/algo_tableau#readme",
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  }
+}
