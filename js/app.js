@@ -3,7 +3,7 @@
     
 // }
 
-function min (arg) {
+export const  uMin  = (arg) => {
     let tmp = [];
     for (let i = 0; i < arg.length; i++) {
         if (tmp < arg[i]) {
@@ -14,38 +14,38 @@ function min (arg) {
     return tmp;
 }
 
-let regarde = min([6, 8, 5, 3, 2, 1]);
-console.log(regarde);
-
 
 //fonction moyenne 
 
-function moyenne(tarrmoy) {
-    let tmp;
+export function moyenne(arrmoy) {
+    let tmoyennep;
     for (let i = 0; i < arrmoy.length; i++) {
-        tmp += arrmoy[i];
+        tmoyennep += arrmoy[i];
     }
-    return tmp / tarrmoy.length;
+    return tmoyennep / arrmoy.length;
 }
 
-let two = moyenne[3, 3, 3, 3, 3, 2];
-console.log(moyenne);
+// moyenne([3, 3, 3, 3, 3, 2]);
+// console.log(tmoyennep);
 
 
 //fonction to parseInt
 
-function sansstr(argsans) {
-    let tmp = parseInt(argsans);
-    return tmp;
+export function sansstr(argsans) {
+    for (let i = 0; i < argsans.length; i++) {
+        parseInt(argsans[i]);
+    }
+    let tmpers = parseInt(argsans);
+    return tmpers;
 }
 
-let moysans = sansstr["1","2","3"];
-console.log(sansstr);
+// sansstr(["1","2","3"]);
+// console.log(tmpers);
 
 
 //fonction tableau pair /impaire
 
-function pairimpair(table) {
+export function pairimpair(table) {
     let tmpair = [[], []];
 
     for (let i = 0; i < table.length; i++) {
