@@ -1,4 +1,4 @@
-// import assert from "assert";
+import assert from "assert";
 import { uMin } from "../js/app.js";
 import { moyenne } from "../js/app.js";
 import { sansstr } from "../js/app.js";
@@ -9,7 +9,7 @@ describe('array', function () {
     it('should return 1', function () {
       assert.equal(uMin([1,2,3]), 1);
     });
-    it('should return ', function () {
+    it('should return 5', function () {
       assert.equal(uMin([4,5,6]), 5);
     });
   });

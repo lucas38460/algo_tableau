@@ -26,7 +26,6 @@ export function moyenne(arrmoy) {
 }
 
 // moyenne([3, 3, 3, 3, 3, 2]);
-// console.log(tmoyennep);
 
 
 //fonction to parseInt
@@ -40,7 +39,6 @@ export function sansstr(argsans) {
 }
 
 // sansstr(["1","2","3"]);
-// console.log(tmpers);
 
 
 //fonction tableau pair /impaire
